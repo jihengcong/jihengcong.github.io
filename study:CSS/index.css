@@ -1,0 +1,298 @@
+ 
+ 
+/* index.css是用来美化首页的 */
+*{
+    margin: 0;
+    padding: 0;
+    /* 内减模式 */
+    box-sizing: border-box;
+}
+ 
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ 
+.clearfix::before,
+.clearfix::after {
+     content: '';
+    display: table;
+}
+      
+.clearfix::after {
+     clear:both;
+}
+ 
+ 
+ 
+ 
+ 
+body{
+    background-color: #f3f5f7;
+}
+ 
+ 
+/* 版心 */
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 头部 */
+.header{
+    height: 70px;
+    background-color: rgb(119, 220, 119);
+   margin: 30px auto;
+}
+h1{
+    float: left;
+}
+.nav{
+    float: left;
+    margin-left: 120px;
+    height: 70px;
+    /* background-color: rgb(15, 154, 10); */
+ 
+}
+.nav li{
+    float: left;
+    margin-right: 26px;
+}
+.nav li a{
+    display: inline-block;
+    padding: 0 9px;
+    height: 70px;
+    line-height: 70px;
+    
+ 
+    font-size: 18px;
+    color: black;
+}
+.nav li a:hover{
+    border-bottom: 2px solid rgb(4, 79, 20);
+}
+.search{
+    float: left;
+    margin-left: 59px;
+    width: 400px;
+    height: 48px;
+    border: 1px solid rgb(22, 80, 5);
+}
+.search input{
+    /* line-height: 40px; */
+    padding-left: 20px;
+    width: 398px;
+    height: 47px;
+    border:0;
+}
+/* .search button{
+    width: 50px;
+    height: 40px;
+     background-image: url(../images/search0.png);
+} */
+.user{
+    float: right;
+    margin-right: 30px;
+    height: 70px;
+    line-height: 42px;
+}
+.user img{
+    /* 调节图片对齐方式：middle居中 */
+    vertical-align: middle;
+}
+/* 轮播图 */
+.banner{
+    height: 420px;
+    background-color:rgb(194, 240, 11) ;
+}
+.banner  .wrapper{
+    height: 420px;
+    background-image: url(../images/photo.png);
+}
+.banner .left{
+    float: left;
+    padding: 0 20px;
+ 
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0,0,0,0.3);
+    /* 行高属于控制文字的属性，能够继承 */
+    line-height: 50px;
+ 
+}
+ 
+.banner .left span{
+    float: right;
+ 
+}
+.banner .left a{
+    font-size: 19px;
+    color: #f3f5f7;
+}
+.banner .left a:hover{
+    color: blue;
+}
+.banner .right{
+    float: right;
+    width: 220px;
+    height: 330px;
+    background-color: #f3f5f7;
+}
+.banner .right h2{
+    height: 48px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(7, 134, 246);
+}
+.banner .right .content{
+    padding: 0 18px;
+}
+.banner .right .content dl{
+    padding: 15px 0;
+    border-bottom: solid rgb(243, 226, 229) ;
+}
+.banner .right .content dt{
+    font-size: 16px;
+    color: #4e4e4e;
+ 
+}
+.banner .right .content dd{
+    font-size: 14px;
+    color: #4e4e4e;
+}
+.banner .right .more{
+    display: block;
+    margin: 4px 14px 0;
+    width: 200px;
+    height: 40px;
+    border: 1px solid aqua;
+ 
+    font-size: 16px;
+    color: deepskyblue;
+    font-weight: 700;
+ 
+    text-align: center;
+    line-height: 40px;
+ 
+}
+/* 精品推荐 */
+.goods{
+    margin-top: 8px;
+    padding-left: 34px;
+    padding-right: 26px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 2px 3px 0px rgba(118, 116, 118, 0.2);
+ 
+    line-height: 60px;
+}
+.goods h2{
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: aqua;
+}
+.goods ul{
+    float: left;
+    margin-left: 30px;
+}
+.goods ul li{
+    float: left;
+}
+.goods ul li a{
+    border-left: 1px solid #bfbfbf;
+    padding: 0 30px;
+    font-size: 16px;
+    color: black;
+}
+.goods .interest{
+    float: right;
+    font-size: 14px;
+    color: aqua;
+}
+.box{
+    margin-top: 35px;
+}
+.box .title{
+    height: 40px;
+    /* background-color: pink;s */
+}
+.box .title h2{
+    float: left;
+    font-size: 20px;
+    color: #4e4e4e;
+    font-weight: 400;
+}
+.box .title a{
+    float: right;
+    margin-right: 30px;
+    font-size: 12px;
+    color: rgb(30, 122, 30);
+}
+.box .content li{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 228px;
+    height: 330px;
+    background-color:rgb(242, 231, 233);
+}
+.box .content li:nth-child(5n){
+    margin-right: 0;
+}
+.box .content li h3{
+    padding: 20px;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+.box .content li p{
+    padding: 0 20px;
+    font-size: 12px;
+    color: #4e4e4e;
+}
+.box .content span{
+    color: orange;
+}
+.footer{
+    margin-top: 40px;
+    
+    padding: 30px;
+ 
+    height: 417px;
+    background-color: #fff;
+}
+.footer .left{
+    float: left;
+}
+.footer .left p{
+    margin: 20px 0 10px;
+    font-size: 12px;
+    color: #666;
+}
+ 
+.footer .left a{
+    display: inline-block;
+    width: 120px;
+    height: 36px;
+    border: 1px  solid green;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+    color: green;
+}
+ 
+.footer .right{
+    float: right;
+}
+.footer .right dl{
+    float: left;
+    margin-left: 120px;
+ 
+}
+.footer .right dl dt{
+    font-size: 20px;
+}
+
