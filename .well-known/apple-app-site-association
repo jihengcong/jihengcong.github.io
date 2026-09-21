@@ -1,8 +1,24 @@
 {
-  "applinks": {
-    "details": [{
-      "appIDs": ["CM2SF4HN95.com.jddj.hiboos"],
-      "components": [{ "/": "*" }]
-    }]
-  }
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "CM2SF4HN95.com.jddj.hiboos",
+                    "355A2TSX74.com.jddj.hiboos.inhouse"
+                ],
+                "components": [
+                    {
+                        "/": "*",
+                        "comment": "唤起App的通用入口"
+                    }
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "CM2SF4HN95.com.jddj.hiboos",
+            "355A2TSX74.com.jddj.hiboos.inhouse"
+        ]
+    }
 }
