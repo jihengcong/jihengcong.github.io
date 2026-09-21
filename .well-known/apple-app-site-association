@@ -1,6 +1,5 @@
 {
   "applinks": {
-    "apps": [],
     "details": [{
       "appIDs": ["CM2SF4HN95.com.jddj.hiboos"],
       "components": [{ "/": "*" }]
